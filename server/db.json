@@ -1,20 +1,6 @@
 {
   "users": [
     {
-      "name": "sanyam",
-      "mobile": "8909789976",
-      "email": "sanya@gmail.com",
-      "password": "abcd",
-      "id": 2
-    },
-    {
-      "id": "1",
-      "name": "sanya",
-      "email": "shikhar@gmail.com",
-      "mobile": "8975989089",
-      "password": "hufchu"
-    },
-    {
       "id": "3",
       "name": "sonal",
       "email": "sonal@gmail.com",
@@ -29,11 +15,11 @@
       "password": "priyas"
     },
     {
-      "id": "9",
-      "name": "radhika",
-      "email": "rad@gmail.com",
-      "mobile": "8698690846",
-      "password": "ckjdhfkj"
+      "id": "10",
+      "name": "sanya",
+      "email": "sanya@gmail.com",
+      "mobile": "7594759084",
+      "password": "fhiorfio"
     }
   ]
 }

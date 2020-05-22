@@ -8,13 +8,17 @@ import { UpdateComponent } from './update/update.component';
 import { AddComponent } from './add/add.component';
 import {HttpClientModule} from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { DeleteComponent } from './delete/delete.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeListComponent,
     UpdateComponent,
-    AddComponent
+    AddComponent,
+    DeleteComponent,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,

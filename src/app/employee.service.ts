@@ -19,4 +19,7 @@ export class EmployeeService {
   update(user) {
     return this.http.put('http://localhost:3000/users/' + user.id, user);
   }
+  delete(user) {
+    return this.http.delete('http://localhost:3000/users/' + user.id);
+  }
 }

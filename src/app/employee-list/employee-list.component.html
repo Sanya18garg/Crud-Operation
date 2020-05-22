@@ -18,7 +18,9 @@
     <th>Name</th>
     <th>Email</th>
     <th>Mobile</th>
+    <th>Details</th>
     <th>Update</th>
+    <th>Delete</th>
   </tr>
   </thead>
   <tbody>
@@ -26,7 +28,9 @@
     <td>{{s.name}}</td>
     <td>{{s.email}}</td>
     <td>{{s.mobile}}</td>
-    <td><button type="submit" class="btn btn-danger ml-5" (click)="viewdetails(s.id)">Update Employee</button></td>
+    <td><button type="submit" class="btn btn-success " (click)="view1(s.id)">View Details</button></td>
+    <td><button type="submit" class="btn btn-danger " (click)="viewdetails(s.id)">Update</button></td>
+    <td><button type="submit" class="btn btn-warning " (click)="deleteuser(s)">Delete</button></td>
   </tr>
 
   </tbody>

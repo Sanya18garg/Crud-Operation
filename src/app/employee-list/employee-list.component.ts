@@ -18,5 +18,16 @@ public emp: any;
   viewdetails(id) {
     this.router.navigate(['/update', id]);
   }
-
+  view1(id: any) {
+    this.router.navigate(['/view', id]);
+  }
+  employee() {
+    this.service.getall().subscribe(data => {
+      this.emp = data; console.log(this.emp); });
+  }
+deleteuser(user) {
+  this.service.delete(user).subscribe(() => {
+    this.employee();
+  });
+}
 }
